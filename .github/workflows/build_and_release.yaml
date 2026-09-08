@@ -52,7 +52,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
         matrix:
-          os: [ windows-lates]
+          os: [ windows-lates ]
         fail-fast: false
     steps:
       - name: Install Dependencies
